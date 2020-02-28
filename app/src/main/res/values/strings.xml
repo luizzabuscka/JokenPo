@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JokenPo</string>
+
+    <string name="text_instructions">Escolha entre pedra, papel ou tesoura. A pedra ganha da tesoura, que ganha do papel, que ganha da pedra.</string>
+    <string name="text_choose">Escolha uma das opções:</string>
+    <string name="text_you">Você escolheu:</string>
+    <string name="text_machine">A máquina escolheu:</string>
+    <string name="text_victory">Parabéns!\nVocê venceu!</string>
+    <string name="text_lose">Que pena!\nVocê perdeu!</string>
+    <string name="text_draw">Empate!\nVocês escolheram a mesma opção!</string>
+    <string name="button_new_game">Novo Jogo</string>
+    <string name="button_play_again">Jogar Novamente</string>
+
+</resources>

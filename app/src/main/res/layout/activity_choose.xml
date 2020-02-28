@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ChooseActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:text="@string/text_choose" />
+    
+    <ImageView
+        android:id="@+id/ivRock"
+        android:layout_width="@dimen/optionsWidth"
+        android:layout_height="@dimen/optionsHeight"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:src="@drawable/pedra" />
+
+    <ImageView
+        android:id="@+id/ivPaper"
+        android:layout_width="@dimen/optionsWidth"
+        android:layout_height="@dimen/optionsHeight"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:src="@drawable/papel" />
+
+    <ImageView
+        android:id="@+id/ivScissors"
+        android:layout_width="@dimen/optionsWidth"
+        android:layout_height="@dimen/optionsHeight"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:src="@drawable/tesoura" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_you" />
+
+    <ImageView
+        android:id="@+id/ivYou"
+        android:layout_width="@dimen/optionsWidth"
+        android:layout_height="@dimen/optionsHeight"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:src="@drawable/papel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:text="@string/text_machine" />
+
+    <ImageView
+        android:id="@+id/ivMachine"
+        android:layout_width="@dimen/optionsWidth"
+        android:layout_height="@dimen/optionsHeight"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:src="@drawable/papel" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:text="@string/text_victory" />
+
+    <Button
+        android:id="@+id/btPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/elementsMargin"
+        android:layout_marginLeft="@dimen/elementsMargin"
+        android:layout_marginRight="@dimen/elementsMargin"
+        android:background="@drawable/button_background"
+        android:textColor="@color/buttonTextColor"
+        android:text="@string/button_play_again" />
+
+</LinearLayout>
